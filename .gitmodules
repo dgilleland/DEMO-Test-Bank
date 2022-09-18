@@ -1,0 +1,3 @@
+[submodule "Labs/DEMO"]
+	path = Labs/DEMO
+	url = https://github.com/dgilleland/Alpha-Starter-Kit-Demo-Lab-01
