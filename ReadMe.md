@@ -2,12 +2,15 @@
 
 > This repository is at the heart of a set of free samples demonstrating how to use GitHub and git submodules to work as a **Test Bank** for student work.
 
-
 ----
 
 ## Appendix
 
 ### Submodule Strategy
+
+> Remember that Git doesn't download submodule contents by default. If you're adding a submodule to an existing project, make sure anyone that works on the project knows they need to run commands like `git submodule update` and `git clone --recursive` to ensure they get everything &mdash; this includes any automated deployment or testing service that might be involved in the project!
+>
+> (source: [Working With Submodules](https://github.blog/2016-02-01-working-with-submodules/) by GitHub )
 
 Why use git submodules?
 
